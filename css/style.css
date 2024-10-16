@@ -1,0 +1,278 @@
+
+
+body{
+
+    font-family: sans-serif;
+}
+.navheader{
+    height: 100vh;
+    background-image: url("/assets/img/intro-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.nav-ctn{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    top: 300px;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* background-color: red; */
+    gap: 10px;
+    width: 210px;
+
+}
+
+.text-uppercase{
+    font-weight: bolder;
+
+    text-transform: uppercase;
+}
+
+.card h1 {
+    font-size: 1.5em;
+}
+
+.navheader p,h1{
+    text-transform: capitalize;
+
+    font-weight: 900;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    position: absolute;
+    background-color: white;
+    top:600px;
+    height: 170px;
+    width: 1290px;
+    margin-top: 5px;
+
+
+}
+
+.btn{
+
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight:700;
+    background-color: #F6D8AE;
+    
+
+
+}
+
+.hero-text-ctn{
+    max-width: 1000px;
+    text-align: center;
+    color:white;
+}
+
+.hero-text{
+    font-size: 4em;
+    text-transform: uppercase;
+
+}
+
+.intro-hero{
+    color:white
+}
+
+.b1{
+    border:transparent;
+}
+
+.b2{
+    border:3px solid #F6D8AE;
+    background-color: transparent ;
+    color:white;
+}
+
+
+/* Section */
+section {
+    height: 100vh;
+
+}
+
+
+
+
+/* Section 1 */
+
+.sec1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    background-color: #fff8ee;
+}
+
+.sec1-ctn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+
+}
+
+.box{
+    /* background-color: red; */
+    width: 680px;
+    height: 500px;
+    margin-top: 10vh;
+   
+}
+
+
+
+.hero-text-ctn1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.box-img{
+    background: url('/assets//img/home-barber.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro-hero-2{
+
+    display: flex;
+    justify-content: start;
+    gap: 90px;
+    margin-top: 90px;
+}
+
+.intro-here-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.4em;
+    gap: 20px;
+    text-transform: uppercase;
+    /* background-color: yellow; */
+}
+.intro-here-box p {
+    font-size: 2em;
+}
+
+
+.intro-here-box span{
+    width: 200px;
+}
+
+.hero-text-ctn-g p{
+ width: 500px;
+ font-size: 1.3em;
+}
+
+.hero-text-ctn-g h1{
+    font-size: 3em;
+    width: 460px;
+    text-transform: uppercase;
+}
+
+.hero-text-sec2 {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+
+.hero-text-sec2 h1{
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.hero-text-sec2 p{
+    text-align: center;
+    font-size: 1.3em;
+    width: 400px;
+}
+
+/* Section 1 */
+
+.sec2 {
+    display: flex;
+    justify-content: center;
+    /* background-color: #fff8ee; */
+    background-color: yellow;
+}
+
+
+.serv-card{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 500px;
+
+
+}
+
+.serv-ctn{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+
+    height: 650px;
+    width: 900px; 
+
+
+}
+
+.card-dscr {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 280px;
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 1.4em;
+}
+
+.card-dscr h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.card-dscr span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+/* Section 3 */
+
+.sec3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: #fff8ee; */
+        background-color: red;
+}
